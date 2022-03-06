@@ -32,8 +32,8 @@ Code:
 ```C
 /*
 	Author: NvK
-	Agradecimientos: http://memset.wordpress.com/2010/12/03/syscall-hijacking-kernel-2-6-systems/ por la explicacion.
-	Descripción: Hace todos los proceso en ring3 inmortales
+	Thanks to: http://memset.wordpress.com/2010/12/03/syscall-hijacking-kernel-2-6-systems/
+	Description: Makes all processes in ring3 immortal
 */
 #include <linux/module.h>
 #include <linux/kernel.h>
@@ -102,3 +102,7 @@ if you just want to know how many times the system has made the syscall change t
 for this one:
 
 > asmlinkage call_x86_hook_kill(pid_t pid, int sig)
+
+
+My original post: https://indetectables.net/viewtopic.php?t=50056
+Date: May 26, 2014
