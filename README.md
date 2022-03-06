@@ -103,6 +103,8 @@ for this one:
 
 > asmlinkage call_x86_hook_kill(pid_t pid, int sig)
 
+***
 
 My original post: https://indetectables.net/viewtopic.php?t=50056
+<br/>
 Date: May 26, 2014
