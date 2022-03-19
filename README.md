@@ -1,5 +1,4 @@
-Today I come with a small demo of a hook in Ring0
-that I just finished, which will serve to make all the processes in Ring3 immortal.
+This is a small demo of a hook in Ring0 which will serve to make all the processes in Ring3 immortal.
 
 Since kernel versions 2.6, write permissions have been removed,  leaving read-only permissions and the syscall table cannot be exported.
 So we must find another method to hooke the syscall table, one of them is looking in "boot/System.map" where you can find the addresses to the syscall(in my case System.map-3.2.6).
