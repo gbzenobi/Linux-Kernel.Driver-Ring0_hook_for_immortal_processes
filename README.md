@@ -31,7 +31,7 @@ Once uninstalled, the processes can be killed normally:
 Code:
 ```C
 /*
-	Author: NvK
+	Author: Gabriel Zenobi(NvK)
 	Thanks to: http://memset.wordpress.com/2010/12/03/syscall-hijacking-kernel-2-6-systems/
 	Description: Makes all processes in ring3 immortal
 */
