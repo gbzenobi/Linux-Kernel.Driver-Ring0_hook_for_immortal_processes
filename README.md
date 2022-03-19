@@ -91,7 +91,7 @@ module_init(INIT_KERNEL);
 module_exit(EXIT_KERNEL);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Nvk");
+MODULE_AUTHOR("Gabriel Zenobi(Nvk)");
 MODULE_DESCRIPTION("ring0 x86 hook - [kill poc]");
 ```
 
